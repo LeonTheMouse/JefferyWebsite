@@ -1,0 +1,79 @@
+        header {
+            height: 414px;
+            color: white;
+            background-image: url(images/jrebackground.jpg);
+            opacity: 0.85;
+            padding: 20px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+    
+        }
+
+        a { text-decoration: none; color: white;}
+        a:visited { text-decoration: none; color: white;}
+        a:hover { text-decoration: none; color: white;}
+        a:focus { text-decoration: none; color: white;}
+        a:hover, a:active { text-decoration: none; color: white;}
+
+        section.abc {
+            background: white;
+            color: black;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        nav {
+            color: white;
+            opacity: 100%;
+        }
+
+        div {
+            background: rgb(231, 170, 170);
+            padding: 10px;
+            width: 100px;
+            margin: auto;
+        }
+
+        body {
+            color: white;
+            background: rgb(32, 33, 34);
+            font: monospace, Helvetica;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        footer {
+            background: black;
+            padding: 10px 20px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        h2 {
+            color: whitesmoke;
+            background: black;
+        }
+
+        h3 {
+            color: grey;
+            background: black;
+        }
+
+        li {
+            font-size: 20pt;
+            color: red;
+            display: inline-block;
+            margin-left: 5%;
+            margin-right: 20%;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
