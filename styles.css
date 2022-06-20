@@ -8,6 +8,13 @@
             background-repeat: no-repeat;
     
         }
+        header p {
+            background-color: rgb(179, 179, 179);
+            border-radius: 10px;
+            border: 20px ridge grey;
+            margin-top: -8px;
+            padding: 20px;
+        }
 
         a { text-decoration: none; color: white;}
         a:visited { text-decoration: none; color: white;}
@@ -16,12 +23,17 @@
         a:hover, a:active { text-decoration: none; color: white;}
 
         section.abc {
-            background: white;
+            background: rgb(201, 200, 200);
             color: black;
             padding: 20px;
             display: flex;
             flex-direction: row;
             
+        }
+
+        section.abc div a {
+            background-color: transparent;
+            color: black;
         }
 
         nav {
@@ -30,7 +42,6 @@
         }
 
         div {
-            background: rgb(231, 170, 170);
             padding: 10px;
             width: 100px;
             margin: auto;
