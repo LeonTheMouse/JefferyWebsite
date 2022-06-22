@@ -28,7 +28,11 @@
         }
         
         a.homeButton {
-            color: transparent;
+            color: rgb(11, 11, 12);
+            
+            background-color: white;
+            padding: 3px;
+            border-radius: 3px;
         }
 
         header.page {
