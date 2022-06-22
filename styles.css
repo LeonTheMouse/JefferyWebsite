@@ -22,31 +22,59 @@
         a:focus { text-decoration: none; color: white;}
         a:hover, a:active { text-decoration: none; color: white;}
 
-        section.abc {
-            background: rgb(201, 200, 200);
-            color: black;
-            padding: 20px;
-            display: flex;
-            flex-direction: row;
-            
+        
+        a.onpage {
+            text-decoration: underline;
+        }
+        
+        a.homeButton {
+            color: transparent;
         }
 
-        section.abc div a {
+        header.page {
+            max-height: 65px;
+            background-image: none;
+        }
+        
+        header.page section {
             background-color: transparent;
-            color: black;
         }
-
-        nav {
-            color: white;
-            opacity: 100%;
+        
+        
+        a img.home {
+            max-width: 50px;
+            position: relative;
+            left: -17px;
+            top: 5px;
+            max-height: 40px;
+            margin-top: 0;
+            object-fit: contain;
         }
-
-        div {
-            padding: 10px;
-            width: 100px;
-            margin: auto;
+        
+        a  img.home:hover {
+            max-width: 50px;
+            position: relative;
+            left: -18px;
+            top: 4px;
+            max-height: 40px;
+            margin-top: 0;
+            object-fit: contain;
         }
-
+        
+        a img {
+            max-width: 40px;
+            max-height: 40px;
+            margin-left: -50px;
+            object-fit: contain;
+        }
+        
+        a img:hover {
+            max-width: 40px;
+            max-height: 40px;
+            margin-left: -49px;
+        }
+        
+        
         body {
             color: white;
             background: rgb(32, 33, 34);
@@ -54,37 +82,99 @@
             margin: 0px;
             padding: 0px;
         }
-
+        
         footer {
             background: black;
             padding: 10px 20px;
         }
-
+        
         h1 {
             color: white;
         }
-
+        
         h2 {
             color: whitesmoke;
             background: black;
         }
-
+        
         h3 {
             color: grey;
-            background: black;
+            background: transparent;
+            text-decoration: underline;
+            
         }
-
-        li {
-            font-size: 20pt;
-            color: red;
-            display: inline-block;
-            margin-left: 5%;
-            margin-right: 20%;
+        
+        section.Production {
+            display: flex;
+            justify-content: space-between;
+            background-image: url(images/BlueWaves.jpg);
+            background-size: 100%;
+            
         }
-
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
+        
+        section.Production p {
+            margin: 5px;
+            border-radius: 1vw;
+            width: 33%;
+            padding: 10px;
+            background-color: rgba(10, 10, 24,.7);
+            align-self: flex-start;
         }
-
+        
+        
+        .flexbox-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        
+        .flexbox-item {
+            width: 200px;
+            margin: 10px;
+            border: 3px solid rgb(247, 48, 48);
+            background-color: #dfdfdf;
+        }
+        
+        .flexbox-item-1 {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .flexbox-item-2 {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .flexbox-item-3 {
+            width: 40px;
+            height: 40px;
+        }
+        
+        section.navigation-panel {
+            display: flex;
+            margin: 4px;
+            min-height: 50px;
+            padding: 5px;
+            justify-content: space-evenly;
+            text-align: center;
+            align-items: center;
+        }
+        
+        section.navigation-panel div {
+            background-color: black;
+            color: rgb(255, 249, 249);
+            border-radius: 5px;
+            width: 22vw;
+            margin-right: 45px;
+            text-align: center;
+            height: 4vw;    
+            margin-top: 6px;
+        }
+        
+        section.navigation-panel div a {
+            margin-top: 10px;
+            font: arial;
+            padding: 10px;
+            font-size: 3vw;
+            vertical-align: middle;
+        }
