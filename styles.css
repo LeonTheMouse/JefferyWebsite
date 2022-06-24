@@ -1,4 +1,4 @@
-        header {
+        header.homePage {
             height: 414px;
             color: white;
             background-image: url(images/jrebackground.jpg);
@@ -8,14 +8,8 @@
             background-repeat: no-repeat;
     
         }
-        header p {
-            background-color: rgb(179, 179, 179);
-            border-radius: 10px;
-            border: 20px ridge grey;
-            margin-top: -8px;
-            padding: 20px;
-        }
 
+ 
         a { text-decoration: none; color: white;}
         a:visited { text-decoration: none; color: white;}
         a:hover { text-decoration: none; color: white;}
@@ -28,63 +22,28 @@
         }
         
         a.homeButton {
+            align-self: flex-start;
             color: rgb(11, 11, 12);
-            
-            background-color: white;
+            max-height: 1;
+            background-color: rgb(158, 158, 158);
             padding: 3px;
             border-radius: 3px;
         }
 
         header.page {
-            max-height: 65px;
+            display: flex;
+            align-self: fl;
+            background-color: transparent;
+            max-height: 50px;
             background-image: none;
         }
         
-        header.page section {
-            background-color: transparent;
-        }
-        
-        
-        a img.home {
-            max-width: 50px;
-            position: relative;
-            left: -17px;
-            top: 5px;
-            max-height: 40px;
-            margin-top: 0;
-            object-fit: contain;
-        }
-        
-        a  img.home:hover {
-            max-width: 50px;
-            position: relative;
-            left: -18px;
-            top: 4px;
-            max-height: 40px;
-            margin-top: 0;
-            object-fit: contain;
-        }
-        
-        a img {
-            max-width: 40px;
-            max-height: 40px;
-            margin-left: -50px;
-            object-fit: contain;
-        }
-        
-        a img:hover {
-            max-width: 40px;
-            max-height: 40px;
-            margin-left: -49px;
-        }
         
         
         body {
             color: white;
             background: rgb(32, 33, 34);
             font: monospace, Helvetica;
-            margin: 0px;
-            padding: 0px;
         }
         
         footer {
@@ -113,6 +72,7 @@
             justify-content: space-between;
             background-image: url(images/BlueWaves.jpg);
             background-size: 100%;
+            margin: 10px;
             
         }
         
@@ -126,59 +86,26 @@
         }
         
         
-        .flexbox-container {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: flex-start;
-        }
-        
-        .flexbox-item {
-            width: 200px;
-            margin: 10px;
-            border: 3px solid rgb(247, 48, 48);
-            background-color: #dfdfdf;
-        }
-        
-        .flexbox-item-1 {
-            width: 40px;
-            height: 40px;
-        }
-        
-        .flexbox-item-2 {
-            width: 40px;
-            height: 40px;
-        }
-        
-        .flexbox-item-3 {
-            width: 40px;
-            height: 40px;
-        }
         
         section.navigation-panel {
+            width: 100%;
             display: flex;
-            margin: 4px;
-            min-height: 50px;
-            padding: 5px;
+            background-color: transparent;
+            min-height: 40px;
             justify-content: space-evenly;
-            text-align: center;
             align-items: center;
-        }
-        
-        section.navigation-panel div {
-            background-color: black;
-            color: rgb(255, 249, 249);
-            border-radius: 5px;
-            width: 22vw;
-            margin-right: 45px;
             text-align: center;
-            height: 4vw;    
-            margin-top: 6px;
+        }
+
+        section.navigation-panel a {
+            padding: 5px;
+            font-size: x-large;
+            height: min-content;
+            background-color: rgba(88, 65, 170, .66);
+            color: black;
+            border-radius: 5px;
+            border: dashed 2px rgba(0, 143, 199, .66);
         }
         
-        section.navigation-panel div a {
-            margin-top: 10px;
-            font: arial;
-            padding: 10px;
-            font-size: 3vw;
-            vertical-align: middle;
-        }
+
+        
